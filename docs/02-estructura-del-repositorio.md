@@ -26,6 +26,7 @@ pxt-biomarcadores/
 ├── enums.d.ts                GENERADO por `pxt build`: enums definidos en C++ (acá está vacío)
 ├── test.ts                   Programa de prueba; solo se compila cuando este repo es el proyecto
 │
+├── static/icon.png           Ícono de 300×200 px que se ve en el diálogo de Extensiones (campo "icon" de pxt.json)
 ├── _locales/en/
 │   └── biomarcadores-strings.json   Traducción al inglés de los textos de los bloques
 │

@@ -1,0 +1,28 @@
+{
+    "name": "biomarcadores",
+    "version": "0.1.0",
+    "description": "Sensores de biomarcadores para micro:bit: AD8232 (ECG / ritmo cardíaco) y base para futuros sensores. Incluye documentación completa sobre cómo crear extensiones MakeCode con TypeScript, C++, ensamblador y Python.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "biomarcadores.ts",
+        "ad8232-dsp.ts",
+        "ad8232.ts",
+        "biomarcadores.cpp",
+        "biomarcadores_asm.s",
+        "ad8232.cpp",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}

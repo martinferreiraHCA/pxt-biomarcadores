@@ -1,0 +1,11 @@
+{
+    "name": "biomarcadores-prueba-node",
+    "private": true,
+    "description": "Corre el TypeScript de la extensión en Node.js con stubs del micro:bit para probar el detector de latidos sin hardware.",
+    "scripts": {
+        "test": "tsc -p tsconfig.json && node built/prueba.js"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.0"
+    }
+}

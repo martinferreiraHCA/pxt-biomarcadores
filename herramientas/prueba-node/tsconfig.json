@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["es2017"],
+        "types": [],
+        "outFile": "built/prueba.js",
+        "strict": false
+    },
+    "files": [
+        "stubs-microbit.ts",
+        "../../biomarcadores.ts",
+        "../../ad8232-dsp.ts",
+        "../../ad8232.ts",
+        "prueba.ts"
+    ]
+}

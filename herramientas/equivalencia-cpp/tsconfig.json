@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["es2017"],
+        "types": [],
+        "outFile": "built/equivalencia.js",
+        "strict": false
+    },
+    "files": [
+        "../prueba-node/stubs-microbit.ts",
+        "../../biomarcadores.ts",
+        "../../ad8232-dsp.ts",
+        "equivalencia.ts"
+    ]
+}

@@ -1,0 +1,10 @@
+# Salidas de compilación de pxt
+built/
+pxt_modules/
+node_modules
+_locales/*/*.json.bak
+
+# Archivos temporales
+*.log
+.DS_Store
+.vscode/
